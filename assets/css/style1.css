@@ -1,0 +1,32 @@
+.click{
+  padding:16px;
+  background-color: #ccc;
+  text-decoration:none;
+  border-radius:10px;
+  font-size: 18px;
+  color:#fff;
+  &:hover{
+    transition:0.3s;
+    background-color: #222;
+  }
+} 
+ .menu{
+    position:absolute;
+    top:380px;
+    left:480px;
+    background-color: #71ff05;
+    border-radius:4px;
+    display: none;
+   .menu__item{
+     padding:36px;
+     text-align:center;
+     border-bottom:1px solid #222;
+     &:hover{
+       background-color: #489b09;
+     }
+    }
+  }
+
+.showmenu{
+  display:block;
+}
